@@ -2,8 +2,6 @@ import { Item, List, Button } from './ContactList.styled';
 import PropTypes from 'prop-types';
 
 const ContactList = ({ propsContacts, deleteBtn }) => {
-  // console.log('🚀 ~ deleteBtn', deleteBtn);
-  // console.log('🚀 ~ propsContacts', propsContacts);
   return (
     <div>
       <List>
