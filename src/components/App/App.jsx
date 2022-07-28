@@ -6,6 +6,7 @@ import Filter from 'components/Filter';
 import { ContainerBody, Title, TitleSecond } from './App.styled';
 
 const App = () => {
+  // Масив стандартних контактів
   const [contacts, setContacts] = useLocalStorage('contacts', [
     { id: 'id-1', name: 'Rosie Simpson', number: '459-12-56' },
     { id: 'id-2', name: 'Hermione Kline', number: '443-89-12' },
